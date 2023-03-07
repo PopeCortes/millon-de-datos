@@ -3,7 +3,7 @@
 
 
 
-## Usage/Examples
+## Código en PHP
 
 ```php
 <?php
