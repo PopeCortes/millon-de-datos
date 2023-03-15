@@ -8,7 +8,7 @@
 ```php
 <?php
 
-$servername = "localhost";
+$servername = "localhost"; 
 $username = "root";
 $password = "";
 $dbname = "millon";
@@ -44,3 +44,8 @@ for ($i = 1; $i <= 1000000; $i++) {
 }
 
 $conn->close();
+
+?>
+```
+
+Para que te imprima el millon de datos, tienes que irte a xampp, despues te vas a ir a la confifuracion de apache y en la configuracion de apache le das clic al que dice "PHP", despues vas a buscar "max_execution_time=120" al ver de que sea 120, le vamos a dejas solamente el "0" y los guardamos, despues cerramos xampp y lo volvemos a iniciar y ejecutamos el codigo en el navegador.
